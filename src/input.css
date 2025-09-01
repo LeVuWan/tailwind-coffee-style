@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.top-meny-item {
+    @apply cursor-pointer hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:bg-amber-900 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300
+}
+
+.tgd-icon {
+    @apply size-6 inline-block
+}
+
+.tqd-badge-circle {
+    @apply text-xs mx-2 rounded-full px-2
+}
