@@ -585,6 +585,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[530px\] {
+  height: 530px;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
